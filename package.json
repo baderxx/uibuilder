@@ -7,7 +7,12 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
+    "@nuxt/types": "^2.15.8",
     "nuxt": "3.0.0-rc.3",
     "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.1.9",
+    "pinia": "^2.0.14"
   }
 }
