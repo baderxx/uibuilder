@@ -3,9 +3,9 @@ import { defineNuxtConfig } from 'nuxt'
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   typescript: {
-    strict: true
+    strict: true,
   },
-  buildModules: ['@pinia/nuxt'],
+  buildModules: ['@pinia/nuxt', '@nuxtjs/eslint-module'],
   build: {
     postcss: {
       postcssOptions: {
@@ -16,7 +16,5 @@ export default defineNuxtConfig({
       },
     },
   },
-  css: [
-    "~/assets/css/tailwind.css"
-  ],
+  css: ['~/assets/css/tailwind.css'],
 })

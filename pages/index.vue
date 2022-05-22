@@ -5,8 +5,13 @@
 </template>
 
 <script setup lang="ts">
-import { useGlobalStore } from '@/store'
-const { getAppVersion } = useGlobalStore()
+import {useGlobalStore} from '@/store'
+
+definePageMeta({
+  layout: 'default',
+})
+
+const {getAppVersion} = useGlobalStore()
 </script>
 
 <style scoped>
