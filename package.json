@@ -8,6 +8,9 @@
   },
   "author": "baderxx",
   "license": "MIT",
+  "engines": {
+    "node": ">=16.15.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
