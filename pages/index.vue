@@ -16,4 +16,8 @@ definePageMeta({
 const { getAppVersion } = useGlobalStore()
 </script>
 
-<style scoped></style>
+<style lang="scss" scoped>
+.container {
+  max-width: 600px;
+}
+</style>
